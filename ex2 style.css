@@ -1,0 +1,44 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: greenyellow;
+   align-self: fit-content ;
+   gap: 1em; 
+}
+.header-card{
+    height: 30%;
+    background-color: gray;
+}
+.footer-card{
+    height: 120px;
+    background-color: gray;
+}
+.main-card{
+    display: flex;
+    padding-left: 3em;
+    padding-right: 3em;
+    flex-grow: 1;
+    background-color: gray;
+    column-gap: 3em;
+}
+.left-section{
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+.right-section{
+    background-color: orange;
+    width: 10em;
+    gap: 1em;
+}
+.item{
+    height: 100px;
+    margin: 1em;
+    background-color: aqua;
+}

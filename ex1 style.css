@@ -1,0 +1,26 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+}
+.container{
+    display: flex;
+    margin-left: 10em;
+    margin-right: 10em;
+    height: 100vh;
+    background-color: rgb(121, 227, 121);
+    flex-direction: column;
+    row-gap: 1em;
+}
+.header-card{
+    height: 100px;
+    background-color: gray;
+}
+.main-card{
+    flex-grow: 1;
+    background-color: gray;
+}
+.footer-card{
+    height: 100px;
+    background-color: gray;
+}
